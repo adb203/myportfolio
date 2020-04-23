@@ -7,8 +7,8 @@ function App() {
   return (
     <div>
       <Switch>
-        <Route path={process.env.PUBLIC_URL + '/about'} component={AboutMe}/>
-        <Route path={process.env.PUBLIC_URL + '/'} exact component={LandingPage}/>
+        <Route path= "/" component={AboutMe}/>
+        <Route path= "/about" exact component={LandingPage}/>
       </Switch>
     </div>
   );
